@@ -16,25 +16,23 @@ Este repositório tem como objetivo documentar o uso prático das ferramentas de
 
 ## 📁 Estrutura do Repositório  
   
-📦 ia-responsavel-openai
-┣ 📂 images/
-┃ ┗ 📷 (Capturas de tela opcionais)
-┣ 📂 src/
-┃ ┗ 📄 ExemploIAResponsavel.java
-┣ 📄 README.md
+📦 ia-responsavel-openai    
+┣ 📂 src/  
+┃ ┗ 📄 ExemploIAResponsavel.java  
+┣ 📄 README.md  
 
 ---
 
 ## 🧠 Conceitos Aplicados
 
 ### 🔍 1. Fases da IA Responsável
-
-| Fase        | Descrição |
-|-------------|-----------|
-| **Identificar** | Levantar os riscos associados ao uso da IA no contexto proposto. |
-| **Medir** | Avaliar a performance, viés e impacto social da IA. |
-| **Mitigar** | Implementar ajustes e filtros para evitar resultados indesejados. |
-| **Operar** | Monitorar e evoluir continuamente o uso da IA com ética e responsabilidade. |
+  
+| Fase        | Descrição |  
+|-------------|-----------|  
+| **Identificar** | Levantar os riscos associados ao uso da IA no contexto proposto. |  
+| **Medir** | Avaliar a performance, viés e impacto social da IA. |  
+| **Mitigar** | Implementar ajustes e filtros para evitar resultados indesejados. |  
+| **Operar** | Monitorar e evoluir continuamente o uso da IA com ética e responsabilidade. |  
 
 ---
 
@@ -48,7 +46,7 @@ Essenciais para garantir segurança, respeito e ética no uso da IA. São usados
 if (prompt.toLowerCase().contains("ofensivo") || prompt.toLowerCase().contains("piada")) {
     System.out.println("⚠️ Este conteúdo foi bloqueado pelos filtros de segurança.");
 }
-
+```
 
 # ✍️ 3. Criação Assistida com IA
 
@@ -112,17 +110,6 @@ As trilhas da Microsoft ajudam a entender e aplicar IA com responsabilidade:
 - **Speech Studio** para acessibilidade por voz  
 - **Language Studio** para interpretação semântica  
 - **Azure AI Search** com segurança e personalização  
-
----
-
-# 📝 Capturas de Tela (Opcional)
-
-Inclua prints mostrando:
-
-- Sugestões do Copilot  
-- Execução do código em Java  
-- Exemplos de prompts e resultados  
-- Tela do Microsoft Learn ou Speech Studio  
 
 ---
 
